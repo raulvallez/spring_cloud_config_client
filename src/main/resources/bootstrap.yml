@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springcloudclient #el nombre ha de coincidir con el nombre del fichero dentro del git
+  cloud:
+    config:
+      uri: http://localhost:8888
+  profiles:
+    active: dev
